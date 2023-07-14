@@ -1,0 +1,44 @@
+.signup__session{
+    display: flex;
+    flex-direction: column;
+    background: url(../../assets//movB.png)no-repeat;
+    height: 982px; 
+    width: 70vw;
+    
+}
+.logo__session{
+    margin: 10px;
+    padding: 20px;
+}
+.signup__main{
+    height: 982px;
+    display: flex;
+    flex-direction: row;
+}
+.text__session{
+    margin-top: 437px;
+    margin-left: 37px;
+}
+.detail__container{
+    width: 320px;
+    height: 650px;
+    border: 1px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 166px 40px;
+    /* border: 2px solid blue; */
+}
+h2,h1, p{
+    color: white;
+    font-weight: 500;
+    font-family: poppins;
+}
+.details__session{
+    display: flex;
+    flex-direction: column;
+    background: black ;
+    /* border: 2px solid blue; */
+    width: 400px;
+}
