@@ -63,10 +63,14 @@ const handleSubmit=(e)=>{
 const onChange =(e)=>{
     setValues({...values,[e.target.name]: e.target.value})
 }
+const signUp =(e)=>{
+    e.preventDefault();
+    alert("you details is processing")
+}
 console.log(values) 
   return (
     <div className='app'>
-        <form onSubmit={handleSubmit}>
+        <form >
             {/* <h1>Register</h1> */}
             {/* <Forminput name="username" placeholder="Username" />
             <Forminput name="email" placeholder="Email" />
@@ -77,8 +81,8 @@ console.log(values)
             ))
             }
             <div className='btn'>
-            <button id="createAcct">Create account</button>
-            <button id='signup' type=""> 
+            <button id="createAcct" onClick={handleSubmit} >Create account</button>
+            <button id='signup' type="" onClick={signUp} > 
                     <div><img src={google} alt='google'/> </div> SignUp with Google </button> 
             </div>
         </form>

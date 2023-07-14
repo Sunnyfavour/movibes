@@ -41,4 +41,5 @@ h2,h1, p{
     background: black ;
     /* border: 2px solid blue; */
     width: 400px;
+    margin-left: none;
 }
